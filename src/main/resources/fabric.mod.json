@@ -1,26 +1,26 @@
 {
   "schemaVersion": 1,
-  "id": "template",
+  "id": "packetignore",
   "version": "${version}",
-  "name": "Template",
-  "description": "",
+  "name": "PacketIgnore",
+  "description": "Ignores some packets",
   "authors": [
     "YTG1234"
   ],
   "contributors": [],
   "contact": {},
   "license": "LGPL-3.0",
-  "icon": "assets/template/icon.png",
+  "icon": "assets/packetignore/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "io.github.ytg1234.template.Template"
+      "io.github.ytg1234.packetignore.PacketIgnore"
     ],
     "client": [],
     "server": []
   },
   "mixins": [
-    "template.mixins.json"
+    "packetignore.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.10.8",

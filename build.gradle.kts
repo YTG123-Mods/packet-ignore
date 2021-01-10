@@ -6,7 +6,7 @@ plugins {
 
 object Globals {
     const val grp = "io.github.ytg1234"
-    val abn = project.name
+    const val abn = "packetignore"
     const val version = "1.0.0"
 
     const val mcVer = "1.16.4"
@@ -18,7 +18,7 @@ object Globals {
     const val modrinthId = ""
     const val unstable = false
 
-	const val name = "Template"
+    const val name = "PacketIgnore"
 }
 
 group = Globals.grp
@@ -85,17 +85,6 @@ tasks {
     jar {
         from("LICENSE")
     }
-
-    // javadoc {
-    //     options {
-    //         source = "8"
-    //         encoding = "UTF-8"
-    //         memberLevel = JavadocMemberLevel.PRIVATE
-    //     }
-    //
-    //     source(sourceSets["main"].allJava.srcDirs)
-    //     isFailOnError = false
-    // }
 
     register<com.modrinth.minotaur.TaskModrinthUpload>("publishModrinth") {
         token = System.getenv("MODRINTH_API_TOKEN")

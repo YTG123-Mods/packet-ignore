@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "template_test",
+  "id": "packetignore_test",
   "version": "${version}",
   "name": "Test Mod",
   "description": "A testing mod",
@@ -10,11 +10,11 @@
   "contributors": [],
   "contact": {},
   "license": "LGPL-3.0",
-  "icon": "assets/template_test/icon.png",
+  "icon": "assets/packetignore_test/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "io.github.ytg1234.template.testmod.TestMod"
+      "io.github.ytg1234.packetignore.testmod.TestMod"
     ],
     "client": [],
     "server": []
@@ -22,6 +22,6 @@
   "mixins": [],
   "depends": {
     "fabricloader": ">=0.10.8",
-    "fabric": "*",
+    "fabric": "*"
   }
 }

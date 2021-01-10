@@ -2,7 +2,7 @@
   "required": true,
   "package": "io.github.ytg1234.packetignore.mixin",
   "compatibilityLevel": "JAVA_8",
-  "mixins": [],
+  "mixins": ["ClientConnectionMixin"],
   "client": [],
   "server": [],
   "injectors": {

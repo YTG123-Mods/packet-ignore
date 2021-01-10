@@ -1,4 +1,4 @@
-package io.github.ytg1234.template.testmod;
+package io.github.ytg1234.packetignore.testmod;
 
 import net.fabricmc.api.ModInitializer;
 import org.apache.logging.log4j.LogManager;
